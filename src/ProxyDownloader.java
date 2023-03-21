@@ -3,6 +3,8 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class ProxyDownloader {
+    final static String ROOT_PATH = new File("").getAbsolutePath().concat("\\src\\");
+
     public static void main(String[] args) {
         // Read the port
         int port = Integer.parseInt(args[0]);
@@ -28,8 +30,7 @@ public class ProxyDownloader {
                     // Read the server message
                     String response = readAllMessage(inFromServer2);
                     ResponseMessage responseMessage = new ResponseMessage(response);
-
-                    //saveToTxt("./bilkent.txt", responseMessage.httpData);
+                    saveToTxt(requestMessage.getFileName(), responseMessage.getHttpData());
                     //responseMessage.checkResponseStatusCode();
                     //System.out.println(inFromServer2.readLine());
                 }

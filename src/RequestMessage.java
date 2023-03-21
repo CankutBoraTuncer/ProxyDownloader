@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -36,6 +37,7 @@ public class RequestMessage extends Message {
             this.httpAcceptEncoding = extractHttpAcceptEncoding();
             this.httpConnection = extractHttpConnection();
             this.httpData = extractHttpData();
+            this.fileName = extractFileName();
             this.isValid = true;
             System.out.println(this);
         }
@@ -43,6 +45,12 @@ public class RequestMessage extends Message {
 
     public boolean isGETMessage() {
         return this.httpMethod.equals("GET");
+    }
+
+    private String extractFileName() {
+        File file = new File(this.httpURL);
+        String fileName = file.getName();
+        return fileName;
     }
 
     private String extractHttpData() {
