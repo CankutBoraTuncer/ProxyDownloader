@@ -1,9 +1,13 @@
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 
 public class ProxyDownloader {
-    final static String ROOT_PATH = new File("").getAbsolutePath().concat("\\src\\");
+    final static String HISTORY_PATH = new File("").getAbsolutePath().concat("\\history.txt");
+    static int histCount = 1;
 
     public static void main(String[] args) {
         // Read the port
@@ -17,60 +21,36 @@ public class ProxyDownloader {
                 // Create the stream
                 BufferedReader inFromServer = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
                 // The HTTP message
-                String request = readAllMessage(inFromServer);
+                ArrayList<String> request = Message.readAllMessage(inFromServer);
                 RequestMessage requestMessage = new RequestMessage(request);
-                if (requestMessage.isValid()) {
+                if (requestMessage.isGETMessage()) {
+                    System.out.println(requestMessage);
+                    logSearchHistory(HISTORY_PATH, requestMessage);
                     // Create the client socket
                     Socket clientSocket = new Socket(requestMessage.getHttpHost(), 80);
+                    clientSocket.setSoTimeout(3000);
                     // Output and input servers
                     DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
                     BufferedReader inFromServer2 = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                     // Create the message and write to the server
                     outToServer.writeBytes(requestMessage.generateHttpRequestMessage());
                     // Read the server message
-                    String response = readAllMessage(inFromServer2);
+                    ArrayList<String> response = Message.readAllMessage(inFromServer2);
                     ResponseMessage responseMessage = new ResponseMessage(response);
-                    saveToTxt(requestMessage.getFileName(), responseMessage.getHttpData());
-                    //responseMessage.checkResponseStatusCode();
-                    //System.out.println(inFromServer2.readLine());
+                    System.out.println(responseMessage);
+                    if (responseMessage.checkResponseStatusCode()) {
+                        Message.log(requestMessage.getFileName(), responseMessage.getHttpData());
+                    }
                 }
             }
         } catch (IOException e) {
-            System.out.println("problemo:" + e);
+            System.out.println("Error occured: " + e);
         }
     }
 
-    public static String readAllMessage(BufferedReader reader) {
-        String lines = "";
-        boolean contFlag = false;
-        while (true) {
-            String line;
-            try {
-                line = reader.readLine();
-                if(line != null && line.contains("Content-Length")){
-                    contFlag = true;
-                }
-            } catch (IOException e) {
-                break;
-            }
-            if (line == null ||(line.length() == 0 && !contFlag)) {
-                break;
-            } else {
-                lines += line + "\n";
-            }
-        }
-        return lines;
-    }
-
-    public static void saveToTxt(String name, String data){
-        try {
-            File file = new File(name);
-            boolean foo = file.createNewFile();
-            FileWriter myWriter = new FileWriter(name);
-            myWriter.write(data);
-            myWriter.close();
-        } catch (IOException e) {
-            System.out.println("An error occurred.");
-        }
+    public static void logSearchHistory(String fileName, RequestMessage message) {
+        String timeStamp = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss").format(Calendar.getInstance().getTime());
+        String data = ProxyDownloader.histCount + " - " + timeStamp + ": " + message.getHttpURL();
+        Message.log(fileName, data);
     }
 }

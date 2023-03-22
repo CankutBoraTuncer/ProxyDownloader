@@ -1,137 +1,78 @@
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.Objects;
+
 public class ResponseMessage extends Message {
 
-    String httpMessage;
-    String[] httpMessageArr;
+    ArrayList<String> httpMessage;
+    String httpMessageAll;
     String httpStatus;
-    String httpDate;
-    String httpServer;
-    String httpLastModifiedDate;
+    String httpStatusLine;
     String httpLen;
     String httpContentType;
     String httpData;
+    String httpEncode;
+    String httpOthers;
+    byte[] httpDataImage;
 
-    public ResponseMessage(String responseMessage) {
+
+    public ResponseMessage(ArrayList<String> responseMessage) throws IOException {
         super();
         this.httpMessage = responseMessage;
-        this.httpMessageArr = responseMessage.split("\n");
-        this.httpStatus = extractStatusCode();
-        if(checkResponseStatusCode()){
-            this.httpDate = extractDate();
-            this.httpServer = extractServer();
-            this.httpLastModifiedDate = extractLastModifiedDate();
-            this.httpLen = extractLen();
-            this.httpContentType = extractContentType();
-            this.httpData = extractData();
-            System.out.println(this);
-        }
+        this.httpMessageAll = "";
+        this.httpStatus = "";
+        this.httpStatusLine = "";
+        this.httpLen = "";
+        this.httpContentType = "";
+        this.httpData = "";
+        this.httpOthers = "";
+        this.httpEncode = "";
+        extractHttpMessage();
     }
 
-    public String getHttpMessage() {
-        return httpMessage;
-    }
+    private void extractHttpMessage() throws IOException {
+        boolean isDataBody = false;
+        for (String line : this.httpMessage) {
+            this.httpMessageAll += line + "\n";
+            if (this.httpMessage.indexOf(line) == 0) {
+                this.httpStatusLine = line;
+                this.httpStatus = httpStatusLine.split(" ")[1];
+            } else if (line.contains("Content-Length")) {
+                this.httpLen = line;
+            } else if (line.contains("Content-Type")) {
+                this.httpContentType = line;
+            } else if (isDataBody) {
+                this.httpData += line;
+            } else if (line.length() == 0) {
+                isDataBody = true;
 
-    public void setHttpMessage(String httpMessage) {
-        this.httpMessage = httpMessage;
-    }
-
-    public String[] getHttpMessageArr() {
-        return httpMessageArr;
-    }
-
-    public void setHttpMessageArr(String[] httpMessageArr) {
-        this.httpMessageArr = httpMessageArr;
-    }
-
-    public String getHttpStatus() {
-        return httpStatus;
-    }
-
-    public void setHttpStatus(String httpStatus) {
-        this.httpStatus = httpStatus;
-    }
-
-    public String getHttpDate() {
-        return httpDate;
-    }
-
-    public void setHttpDate(String httpDate) {
-        this.httpDate = httpDate;
-    }
-
-    public String getHttpServer() {
-        return httpServer;
-    }
-
-    public void setHttpServer(String httpServer) {
-        this.httpServer = httpServer;
-    }
-
-    public String getHttpLastModifiedDate() {
-        return httpLastModifiedDate;
-    }
-
-    public void setHttpLastModifiedDate(String httpLastModifiedDate) {
-        this.httpLastModifiedDate = httpLastModifiedDate;
-    }
-
-    public String getHttpLen() {
-        return httpLen;
-    }
-
-    public void setHttpLen(String httpLen) {
-        this.httpLen = httpLen;
-    }
-
-    public String getHttpContentType() {
-        return httpContentType;
-    }
-
-    public void setHttpContentType(String httpContentType) {
-        this.httpContentType = httpContentType;
+                break;
+            } else {
+                this.httpOthers += line;
+            }
+        }/**
+         if (this.httpContentType.contains("jpeg")) {
+         this.httpDataImage = this.httpData.getBytes(StandardCharsets.UTF_8);
+         System.out.println(httpDataImage);
+         ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(this.httpDataImage);
+         BufferedImage image = ImageIO.read(byteArrayInputStream);
+         // Write image to file in JPEG format
+         File outputFile = new File("C:\\Users\\USER\\OneDrive\\Desktop\\BILKENTEEE\\BilkentEEE-Year3-Semestr2\\CS421\\lab\\lab2\\ProxyDownloader\\src\\output.jpg");
+         ImageIO.write(image, "jpg", outputFile);
+         }*/
     }
 
     public String getHttpData() {
-        return httpData;
-    }
-
-    public void setHttpData(String httpData) {
-        this.httpData = httpData;
-    }
-
-    private String extractData() {
-        String data = "";
-        for (int i = 11; i < httpMessageArr.length; i++){
-            data += httpMessageArr[i] + "\n";
-        }
-        return data;
-    }
-
-    private String extractContentType() {
-        return this.httpMessageArr[9];
-    }
-
-    private String extractLen() {
-        return this.httpMessageArr[6];
-    }
-
-    private String extractLastModifiedDate() {
-        return this.httpMessageArr[3];
-    }
-
-    private String extractServer() {
-        return this.httpMessageArr[2];
-    }
-
-    private String extractDate() {
-        return this.httpMessageArr[1];
-    }
-
-    private String extractStatusCode() {
-        return this.httpMessageArr[0];
+        return this.httpData;
     }
 
     public boolean checkResponseStatusCode() {
-        if (this.httpStatus.contains("200")) {
+        if (this.httpStatus.equals("200")) {
             System.out.println("The request is accepted!");
             return true;
         } else {
@@ -142,6 +83,6 @@ public class ResponseMessage extends Message {
 
     @Override
     public String toString() {
-        return this.httpStatus + "\n" + this.httpDate + "\n" + this.httpServer + "\n" + this.httpLastModifiedDate + "\n" + this.httpLen + "\n" + this.httpContentType +"\n" + this.httpData;
+        return this.httpMessageAll;
     }
 }
