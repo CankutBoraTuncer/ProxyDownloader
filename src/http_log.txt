@@ -83,3 +83,453 @@ Host: icio.us
 nullHost: icio.usUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
 
 
+GET http://cankutboratuncer.com/assets/images/profil.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/work001-01.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://example.com/ HTTP/1.1
+Host: example.com
+nullHost: example.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/ HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/bilkent.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/bilkent.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/bilkent.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/work001-01.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/work001-01.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/profil.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/profil.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://cankutboratuncer.com/assets/images/profil.jpg HTTP/1.1
+Host: cankutboratuncer.com
+nullHost: cankutboratuncer.comUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Accept-Encoding: gzip, deflateConnection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/23/1310705078_16795621062241n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.news.cn/science/2023-03/08/1310701835_16782369375321n.jpg HTTP/1.1
+Host: www.news.cn
+nullHost: www.news.cnUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/lorem.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.txt HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+
+GET http://www.cs.bilkent.edu.tr/~cs421/spring22/project1/nums.jpg HTTP/1.1
+Host: www.cs.bilkent.edu.tr
+nullHost: www.cs.bilkent.edu.trUser-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8Accept-Language: tr-TR,tr;q=0.8,en-US;q=0.5,en;q=0.3Connection: keep-aliveUpgrade-Insecure-Requests: 1
+
+

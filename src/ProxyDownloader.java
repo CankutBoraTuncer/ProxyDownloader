@@ -21,7 +21,7 @@ public class ProxyDownloader {
                 // Create the stream
                 BufferedReader inFromServer = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
                 // The HTTP message
-                ArrayList<String> request = Message.readAllMessage(inFromServer);
+                ArrayList<String> request = Message.readResponseMessage(inFromServer);
                 RequestMessage requestMessage = new RequestMessage(request);
                 if (requestMessage.isGETMessage()) {
                     System.out.println(requestMessage);
@@ -31,14 +31,19 @@ public class ProxyDownloader {
                     clientSocket.setSoTimeout(3000);
                     // Output and input servers
                     DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
-                    BufferedReader inFromServer2 = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                    // Create the message and write to the server
                     outToServer.writeBytes(requestMessage.generateHttpRequestMessage());
-                    // Read the server message
-                    ArrayList<String> response = Message.readAllMessage(inFromServer2);
-                    ResponseMessage responseMessage = new ResponseMessage(response);
-                    System.out.println(responseMessage);
+                    ResponseMessage responseMessage;
+                    if (requestMessage.getFileType().equals("jpeg")) {
+                        InputStream inFromServerImage = clientSocket.getInputStream();
+                        Object[] imageData = Message.readResponseMessage(inFromServerImage);
+                        responseMessage = new ResponseMessage(imageData);
+                    } else {
+                        BufferedReader inFromServer2 = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+                        ArrayList<String> response = Message.readResponseMessage(inFromServer2);
+                        responseMessage = new ResponseMessage(response, requestMessage.getHttpEncoding());
+                    }
                     if (responseMessage.checkResponseStatusCode()) {
+                        System.out.println(responseMessage);
                         Message.log(requestMessage.getFileName(), responseMessage.getHttpData());
                     }
                 }

@@ -15,10 +15,13 @@ public class RequestMessage extends Message {
     String fileName;
     String httpOthers;
     String httpRequestLine;
+    String httpEncoding;
+    String fileType;
     boolean isValid = false;
 
     public RequestMessage(ArrayList<String> requestMessage) {
         super();
+        this.fileType = "";
         this.httpMessage = requestMessage;
         extractHttpMessage();
     }
@@ -41,9 +44,14 @@ public class RequestMessage extends Message {
                 this.httpMethod = this.httpRequestLine.split(" ")[0];
                 this.httpURL = this.httpRequestLine.split(" ")[1];
                 this.httpVersion = this.httpRequestLine.split(" ")[2];
+                if(this.httpURL.contains(".jpg")){
+                    this.fileType = "jpeg";
+                }
                 this.httpHost = extractHttpHost();
                 this.httpPath = extractHttpPath();
                 this.fileName = extractFileName();
+            } else if (line.contains("Accept-Encoding")) {
+                this.httpEncoding = line;
             } else if (line.length() != 0) {
                 this.httpOthers += line;
             }
@@ -82,15 +90,33 @@ public class RequestMessage extends Message {
     public String getHttpHost() {
         return httpHost;
     }
+
     public String getHttpURL() {
         return httpURL;
     }
+
     public String getFileName() {
         return fileName;
     }
 
     public boolean isValid() {
         return isValid;
+    }
+
+    public String getHttpEncoding() {
+        return httpEncoding;
+    }
+
+    public void setHttpEncoding(String httpEncoding) {
+        this.httpEncoding = httpEncoding;
+    }
+
+    public String getFileType() {
+        return fileType;
+    }
+
+    public void setFileType(String fileType) {
+        this.fileType = fileType;
     }
 
     @Override
