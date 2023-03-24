@@ -6,56 +6,92 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class ProxyDownloader {
-    final static String HISTORY_PATH = new File("").getAbsolutePath().concat("\\history.txt");
+    final static String ROOT_PATH = new File("").getAbsolutePath();
+    final static String HISTORY_LOG_PATH = ROOT_PATH.concat("\\history.txt");
     static int histCount = 1;
 
     public static void main(String[] args) {
-        // Read the port
         int port = Integer.parseInt(args[0]);
         try {
-            // Create the welcome socket
             ServerSocket welcomeSocket = new ServerSocket(port);
             while (true) {
-                // Contact with the client
                 Socket connectionSocket = welcomeSocket.accept();
-                // Create the stream
-                BufferedReader inFromServer = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-                // The HTTP message
-                ArrayList<String> request = Message.readResponseMessage(inFromServer);
+                ArrayList<String> request = readResponse(connectionSocket);
                 RequestMessage requestMessage = new RequestMessage(request);
                 if (requestMessage.isGETMessage()) {
                     System.out.println(requestMessage);
-                    logSearchHistory(HISTORY_PATH, requestMessage);
-                    // Create the client socket
-                    Socket clientSocket = new Socket(requestMessage.getHttpHost(), 80);
-                    clientSocket.setSoTimeout(3000);
-                    // Output and input servers
-                    DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
-                    outToServer.writeBytes(requestMessage.generateHttpRequestMessage());
-                    ResponseMessage responseMessage;
+                    logSearchHistory(HISTORY_LOG_PATH, requestMessage);
+                    Socket clientSocket = initSocket(requestMessage.getHttpHost(), 80, 5000);
+                    sendRequest(clientSocket, requestMessage);
                     if (requestMessage.getFileType().equals("jpeg")) {
-                        InputStream inFromServerImage = clientSocket.getInputStream();
-                        Object[] imageData = Message.readResponseMessage(inFromServerImage);
-                        responseMessage = new ResponseMessage(imageData);
+                        readImageResponse(clientSocket, requestMessage);
                     } else {
-                        BufferedReader inFromServer2 = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                        ArrayList<String> response = Message.readResponseMessage(inFromServer2);
-                        responseMessage = new ResponseMessage(response, requestMessage.getHttpEncoding());
+                        ResponseMessage responseMessage = readResponse(clientSocket, requestMessage);
+                        String fileName = requestMessage.getFileName();
+                        saveTxt(responseMessage, fileName);
                     }
-                    if (responseMessage.checkResponseStatusCode()) {
-                        System.out.println(responseMessage);
-                        Message.log(requestMessage.getFileName(), responseMessage.getHttpData());
-                    }
+                    clientSocket.close();
                 }
             }
         } catch (IOException e) {
-            System.out.println("Error occured: " + e);
+            System.out.println("Error occurred: " + e);
+        }
+    }
+
+    public static void readImageResponse(Socket clientSocket, RequestMessage requestMessage) throws IOException {
+        InputStream inFromServerImage = clientSocket.getInputStream();
+        String fileName = ROOT_PATH.concat("\\" + requestMessage.getFileName());
+        Message.readResponseImageAndSave(inFromServerImage, fileName);
+    }
+
+    public static ResponseMessage readResponse(Socket clientSocket, RequestMessage requestMessage) {
+        try {
+            BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            ArrayList<String> response = Message.readResponseMessage(inFromServer);
+            return new ResponseMessage(response, requestMessage.getHttpEncoding());
+        } catch (IOException ioe) {
+            System.out.println("IOException when reading response message.");
+            return null;
+        }
+    }
+
+    public static ArrayList<String> readResponse(Socket clientSocket) {
+        try {
+            BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
+            return Message.readResponseMessage(inFromServer);
+        } catch (IOException ioe) {
+            System.out.println("IOException when reading response message.");
+            return null;
+        }
+    }
+
+    public static void sendRequest(Socket clientSocket, RequestMessage requestMessage) {
+        try {
+            DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
+            outToServer.writeBytes(requestMessage.generateHttpRequestMessage());
+        } catch (IOException ioe) {
+            System.out.println("IOException when sending request message.");
         }
     }
 
     public static void logSearchHistory(String fileName, RequestMessage message) {
         String timeStamp = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss").format(Calendar.getInstance().getTime());
         String data = ProxyDownloader.histCount + " - " + timeStamp + ": " + message.getHttpURL();
-        Message.log(fileName, data);
+        Message.log(fileName, data, true);
+        histCount++;
+    }
+
+    public static void saveTxt(ResponseMessage responseMessage, String fileName) {
+        if (responseMessage.checkResponseStatusCode()) {
+            Message.log(fileName, responseMessage.getHttpData(), false);
+        }
+    }
+
+    public static Socket initSocket(String host, int port, int timeout) throws IOException {
+        Socket socket = new Socket(host, 80);
+        socket.setSoTimeout(timeout);
+        return socket;
     }
 }
+
+
